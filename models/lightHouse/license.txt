@@ -1,0 +1,8 @@
+Model Information:
+* title:	Mr. Craby's Lighthouse
+* source:	https://sketchfab.com/3d-models/mr-crabys-lighthouse-67cfdc0435ec430db4d395b1d5b0112d
+* author:	TeodoroPalitoc (https://sketchfab.com/theobirao)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

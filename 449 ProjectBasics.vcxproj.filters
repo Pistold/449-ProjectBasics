@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KHR\khrplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslationAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="models\White_marble_03\Textures_4K\white_marble_03_4k_baseColor.tga" />
+    <Image Include="models\bunny_textured.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\lightHouse\textures\material_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\lightHouse\textures\sand_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\lightHouse\textures\sand_metallicRoughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\lightHouse\textures\sand_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\lightHouse\textures\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\boat\Texture\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\boat\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Birds\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Light\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Crab\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Crab\sand_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Crab\sand_metallicRoughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Crab\sand_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Water\material_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="models\Water\tbpjr_gradient_baseColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="models\tiger\scene.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\tiger\scene.gltf" />
+    <None Include="models\bunny_textured.mtl" />
+    <None Include="shaders\all_green.frag" />
+    <None Include="shaders\light_perspective.vert" />
+    <None Include="shaders\lighting.frag" />
+    <None Include="shaders\no_transform.vert" />
+    <None Include="shaders\texture_perspective.vert" />
+    <None Include="shaders\texturing.frag" />
+    <None Include="models\lightHouse\scene.gltf" />
+    <None Include="models\lightHouse\scene.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\boat\lighthouse.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\boat\lighthouse.gltf" />
+    <None Include="models\Birds\birds.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\Birds\birds.gltf" />
+    <None Include="models\Light\llight.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\Light\llight.gltf" />
+    <None Include="models\Crab\crab.gltf" />
+    <None Include="models\Crab\crab.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\Water\water.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="models\Water\water.gltf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="models\tiger\license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
